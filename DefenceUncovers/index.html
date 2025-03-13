@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Swiper CSS (Required for slider) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defence Sector Hub</title>
+    
+    <!-- Internal CSS for Styling -->
+    <style>
+        #home {
+    text-align: center;
+    background-color: #0a0a0a;
+    color: white;
+    padding: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 60vh;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+        .nav-menu {
+    list-style: none;  /* Removes bullet points */
+    display: flex;  /* Puts items in a row */
+    gap: 20px;  /* Adds space between items */
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;  /* Change color if needed */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+        /* General Styles */
+        body {
+            background-color: #0B0C10; /* Deep black */
+            color: #C5C6C7; /* Steel gray */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        h1 {
+            color: #66FCF1; /* Neon Cyan */
+            text-align: center;
+            text-transform: uppercase;
+            padding: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #1F2833; /* Dark blue-gray */
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #C5C6C7; /* Light gray */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 15px;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #FF2E00; /* Combat Red */
+        }
+
+        /* Section Styling */
+        section {
+            background-color: #0B0C10; /* Dark black */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            border: 2px solid #66FCF1; /* Cyan glow */
+        }
+
+        /* Buttons */
+        button {
+            background-color: #45A29E; /* Deep teal */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #FF2E00; /* Combat Red */
+            color: #0B0C10; /* Black text */
+        }
+
+        /* Video Section */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .video-box {
+            background: #1F2833;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+            border: 2px solid #66FCF1;
+        }
+
+        .video-box img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1F2833;
+            text-align: center;
+            padding: 15px;
+            color: #C5C6C7;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defence Sector Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  
+    
+   
+
+    <header>
+        <h1>Defence Sector Hub</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section id="home" class="hero">
+        <h2>Welcome to the Ultimate Defence Hub</h2>
+        <p>Explore the elite forces of our nation - Army, Navy, Air Force, SPG, NSG, RAW, Special Forces and more.</p>
+        <a href="#videos" class="btn">Watch Videos</a>
+    </section>
+    
+    <section id="home">
+      
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/indian-armys-new-combat-uniform.jpg" alt="Indian Army">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/Untitled-design-16-1.jpg" alt="Indian Navy">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/Photo-4-2048x1366.jpeg" alt="Indian Air Force">
+                </div>
+            </div>
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Pagination Dots -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <h1>Welcome to the Ultimate Defence Hub</h1>
+        <p>Explore the power of India's elite forces – Army, Navy, Air Force, SPG, NSG, RAW, and more.</p>
+    
+        
+    </section>
+
+    <section id="about">
+        <h2>About This Channel</h2>
+        <p>Welcome to <strong>Defence Uncovers</strong>!</p>
+        <p>We bring you fascinating insights into elite military forces, intelligence agencies, and cutting-edge defense technologies.  
+        From secret missions to advanced weaponry, our videos uncover the stories that the world rarely sees.</p>
+        <p>Join us on this journey of knowledge and exploration! Subscribe now and become part of our growing community. 🎥✨</p>
+        <p><strong>Created by:</strong> <span>Pradnyesh Baraskar</span></p>
+    </section>
+
+    <section id="videos" class="videos">
+        <h2>Our Playlists</h2>
+        <div class="video-container">
+    
+            <div class="video">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/videoseries?list=PLKeJ0UUvi3TfCngu-59qdjEZx4rPX3jsB&si=q3ps5q7u5yXgUiTi" 
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <p>India's Elite Forces</p>
+            </div>
+    
+            <div class="video">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/videoseries?list=PLKeJ0UUvi3Td0hoDaKUD64nrxt_x4A-af&si=a3vdw2v0WChsHA20" 
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <p>Guardians of Land, Sea, Sky</p>
+            </div>
+    
+            <div class="video">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/videoseries?list=PLKeJ0UUvi3TfQensbKoAH8qJ5Dt95V-4V&si=cN_jZx-VfriMtw4H" 
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <p>Secrets of RAW, ISI, CIA</p>
+            </div>
+    
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact">
+        <h2>Stay Connected</h2>
+        <p>Join our community and stay updated with defence sector insights.</p>
+        <div class="social-icons">
+            <a href="https://youtube.com/@curiouswithpradnyeshfa24?si=eXhtxQjT7ZCFIx-c" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://t.me/+nNa02dJxW9YxNjY1" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://chat.whatsapp.com/HGNI4ZmBrGT0MzY0yKY3tQ" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Defence Sector Hub. All rights reserved.</p>
+    </footer>
+    <!-- Swiper JS (Required for sliding effect) -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,  // Makes the slides repeat infinitely
+        autoplay: {
+            delay: 3000,  // Slides change every 3 seconds
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,  // Adds small dots for navigation
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",  // Right arrow button
+            prevEl: ".swiper-button-prev",  // Left arrow button
+        },
+    });
+</script>
+
+
+</body>
+</html>

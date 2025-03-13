@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    background-color: #0B0C10; /* Deep black */
+    color: #C5C6C7; /* Steel gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+h1 {
+    color: #66FCF1; /* Neon Cyan */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1F2833; /* Dark blue-gray */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #C5C6C7; /* Light gray */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #FF2E00; /* Combat Red */
+}
+
+/* Section Styling */
+section {
+    background-color: #0B0C10; /* Dark black */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid #66FCF1; /* Cyan glow */
+}
+
+/* Button Styling */
+button {
+    background-color: #45A29E; /* Deep teal */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FF2E00; /* Combat Red */
+    color: #0B0C10; /* Black text */
+}
